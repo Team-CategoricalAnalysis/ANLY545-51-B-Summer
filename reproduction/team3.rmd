@@ -1,0 +1,73 @@
+---
+title: "Reproduction of Team 2 by Team 3"
+author:
+  - Honghui Yang
+  - Daniyar Sadykhanov
+  - Abimbola Maryam Sanusi
+date: "`r Sys.Date()`"
+---
+
+Remember to write your thoughts as a book report.
+I expect the same _content_ as your presentation, but the working should reflect the new medium.
+
+The core of science is reproducibility.
+This goes back hundreds of years to the [Royal Society](https://en.wikipedia.org/wiki/Royal_Society).
+We must be able to reproduce our work and the work of others.
+
+# Reproduction
+
+Reproduce the work, **exactly as presented**, of the group that came before you (see People in Canvas).
+
+**ChatGPT Conversation Reference:** https://chat.openai.com/share/afd0d706-8f98-4de3-a10a-1978fb69dead
+
+## Steps
+
+1. (Copy and paste the whole article to CahtGPT.)
+
+ChatGPT: This abstract presents the findings of a literature review comparing the performance of logistic regression (LR) and neural network (NN) classification models in medical applications. The study aimed to assess whether NNs, which are more complex and computationally expensive than LR models, provide significantly better performance for clinical healthcare-related classification problems.
+
+The review involved searching the PubMed database for primary research studies that directly compared LR and NN models using area under the curve (AUC) values as the performance metric. A total of 21 studies were included in the review, covering various clinical areas and a total of 1,442,703 subjects.
+
+The results showed that in 13 out of 21 cases (62%), NNs had a slightly greater AUC compared to LR models. However, the difference in performance was small and unlikely to be clinically significant, with an unweighted mean difference in AUC of 0.03 in favor of NNs.
+
+The conclusion of the study was that LR models generally provide reasonable performance for clinical classification tasks and are only marginally outperformed by more complex NN models. The authors suggest that for most clinical scenarios, LR models may be sufficient, but in cases where large amounts of data are available and small performance improvements would be valuable, NNs may be considered.
+
+The abstract acknowledges potential limitations of using AUC as the sole performance metric and highlights that the choice of model should be tailored to the specific clinical problem. It also emphasizes the trade-off between model performance and complexity, as well as the importance of multidisciplinary clinical informatics teams to address such issues in healthcare settings.
+
+The abstract provides a comprehensive summary of the review, including a flow diagram of the search strategy, a table with study details, and a scatter plot comparing LR and NN performance. It concludes with a list of references for further reading.
+
+2. "What is the main question addressed by the research?"
+
+ChatGPT: The main question addressed by the research is whether neural network (NN) classification models provide significantly better performance, in terms of area under the curve (AUC), compared to logistic regression (LR) models in the context of clinical healthcare-related classification problems. The study aimed to compare the performance of these two machine learning approaches using identical datasets in various medical applications to determine if the increased complexity and computational cost of NNs are justified by substantial improvements in predictive accuracy.
+
+3. "How original is the topic?"
+
+ChatGPT: The topic of comparing the performance of logistic regression (LR) and neural network (NN) classification models in medical applications is not entirely novel or groundbreaking in the field of machine learning or healthcare informatics. Machine learning researchers and practitioners have been comparing different algorithms, including LR and NNs, for various classification tasks for many years.
+
+However, while the topic itself may not be entirely original, the specific focus on medical applications and the use of AUC as the performance metric in a systematic literature review provide valuable insights and contribute to the existing knowledge in the domain of healthcare informatics. The study presents a comprehensive review of relevant primary research studies, covering a diverse range of clinical scenarios, and presents a summary of the current evidence regarding the relative performance of LR and NN models in medical settings.
+
+Moreover, the findings of the study, which suggest that LR models generally provide comparable performance to NNs with only marginal differences, have practical implications for healthcare professionals and researchers looking to implement machine learning models in clinical decision-making. The emphasis on the trade-offs between model complexity and performance, as well as the need for multidisciplinary clinical informatics teams, adds a valuable perspective to the discussion.
+
+In summary, while the topic itself may not be entirely original, the study's approach, scope, and focus on medical applications make it a valuable contribution to the existing body of knowledge in healthcare informatics and machine learning in medicine.
+
+4. "Are the conclusions consistent with the evidence and arguments presented?"
+
+ChatGPT: Yes, the conclusions of the study are consistent with the evidence and arguments presented in the research abstract. The study aimed to compare the performance of logistic regression (LR) and neural network (NN) models in medical applications using AUC as the performance metric. The evidence presented in the abstract shows that in the majority of cases examined across various clinical settings, NN models had slightly higher AUC values compared to LR models. However, the difference in performance was small and unlikely to be clinically significant.
+
+The study discusses the implications of these findings, noting that while NNs may show slightly better performance, they come with increased complexity, computational cost, and reduced interpretability compared to LR models. The abstract acknowledges the trade-offs between performance and implementation costs and highlights that in many clinical scenarios, simpler LR-based models may be sufficient for real-world needs.
+
+The arguments presented in the abstract support the idea that for most clinical classification tasks, LR models are a reasonable choice and that NNs may be more suitable in specific situations where large amounts of data and small performance improvements are of significant value. The study also emphasizes the importance of considering a range of performance metrics beyond AUC and tailoring the choice of model to the specific clinical problem.
+
+Overall, the conclusions drawn in the abstract are well-supported by the evidence and arguments presented, providing a balanced and informative perspective on the relative performance of LR and NN models in medical applications.
+
+# Evaluate
+
+Evaluate if the result (identical or different) are still useful.
+
+1. Did **the other team's** prompts help fill in **your** understanding of the paper?
+
+It helped us fill our understanding of the paper somewhat. For example, the answer to the second question made us aware that this kind of study has been done before but it is novel in the medical field and has its value to that community. And for the third question, we understood that both NN and LR have their advantages depending on the use case.
+
+2. Did **the other team's** prompts miss the mark in a meaningful way?
+
+Their prompts missed the mark slightly, because we didn't get the same level of detail. Our responses were more concise in this case: for the third question, their team's answer contained "The finding showed that in 13 out of 21 cases, NN had a slightly greater area under the curve (AUC) compared to LR, but the difference was small and unlikely to be clinically significant" whereas in our prompt, we didn't get that level of specificity. However, for the second question, the answer ChatGPT provided to us was more lengthy and detailed.
