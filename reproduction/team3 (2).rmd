@@ -1,0 +1,33 @@
+---
+title: "Reproduction of Team 2 by Team 3"
+author:
+  - Honghui Yang
+  - Daniyar Sadykhanov
+  - Abimbola Maryam Sanusi
+date: "`r Sys.Date()`"
+---
+
+Remember to write your thoughts as a book report.
+I expect the same _content_ as your presentation, but the working should reflect the new medium.
+
+The core of science is reproducibility.
+This goes back hundreds of years to the [Royal Society](https://en.wikipedia.org/wiki/Royal_Society).
+We must be able to reproduce our work and the work of others.
+
+# Reproduction
+
+Reproduce the work, **exactly as presented**, of the group that came before you (see People in Canvas).
+
+## Steps
+
+# Evaluate
+
+Evaluate if the result (identical or different) are still useful.
+
+1. Did **the other team's** prompts help fill in **your** understanding of the paper?
+
+It helped us fill our understanding of the paper somewhat. For example, the answer to the second question made us aware that this kind of study has been done before but it is novel in the medical field and has its value to that community. And for the third question, we understood that both NN and LR have their advantages depending on the use case.
+
+2. Did **the other team's** prompts miss the mark in a meaningful way?
+
+Their prompts missed the mark slightly, because we didn't get the same level of detail. Our responses were more concise in this case: for the third question, their team's answer contained "The finding showed that in 13 out of 21 cases, NN had a slightly greater area under the curve (AUC) compared to LR, but the difference was small and unlikely to be clinically significant" whereas in our prompt, we didn't get that level of specificity. However, for the second question, the answer ChatGPT provided to us was more lengthy and detailed.
